@@ -1,13 +1,22 @@
+"use client";
+import { useEffect, useState } from "react";
+
+import useDebounce from "./challenges/hooks/useDebounce";
+
 export default function Hooks() {
-  return(
+  return (
     <>
-      <h1>
-        Hooks
-      </h1>
+      <h1>Hooks</h1>
       <ol>
-        <li>Build a useInterval hook. See Documentation [here](https://github.com/streamich/react-use/blob/master/docs/useInterval.md)</li>
-        <li>Build a useDebounce hook. See Documentation [here](https://github.com/streamich/react-use/blob/master/docs/useDebounce.md)</li>
+        <li>
+          Build a useInterval hook. See Documentation
+          [here](https://github.com/streamich/react-use/blob/master/docs/useInterval.md)
+        </li>
+        <li>
+          Build a useDebounce hook. See Documentation
+          [here](https://github.com/streamich/react-use/blob/master/docs/useDebounce.md)
+        </li>
       </ol>
     </>
-  )
+  );
 }
